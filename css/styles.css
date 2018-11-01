@@ -1,0 +1,368 @@
+@font-face {
+    font-family: noirPro;
+    src: url(../fonts/NoirPro-Regular.woff);
+}
+
+@font-face {
+    font-family: noirProB;
+    src: url(../fonts/NoirPro-Bold.woff);
+}
+
+@font-face {
+    font-family: noirProL;
+    src: url(../fonts/NoirPro-Light.woff);
+}
+
+.navbar .nav-link{
+  font-family: noirProB;
+  color: black !important;
+
+}
+
+.navbar-nav .nav-item{
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  display: flex;
+  align-items: center;
+}
+
+
+
+ .navbar-toggler-icon {
+  background-image: url(../images/menu.svg) !important;
+}
+
+.bg-gif{
+  background-image: url(../images/basura.gif);
+  background-size:cover;
+  height: 85vh;
+}
+
+.text-green{
+  color:#95CD58 ;
+}
+
+.size-normal-text{
+  font-size: 0.6em !important;
+}
+
+.text-regular{
+  font-family: noirPro;
+}
+
+.inicio{
+  font-family: noirProB;
+  font-size: 4em;
+  line-height: 1.2;
+}
+
+.description{
+  font-family: noirPro;
+  font-size: 1.8em;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.bold-word-white{
+  font-family: noirPro;
+  font-size: 1.5em;
+  color: white;
+}
+
+.bold-word-w{
+  font-family: noirProB;
+  font-size: 1.8em;
+  color: white;
+}
+
+.bold-word-yellow{
+  font-family: noirProB;
+  color:#FFD529;
+}
+
+.ligth-word-white{
+  font-family: noirProL !important;
+  color: white;
+}
+
+.white-b{
+  font-family: noirProB !important;
+  color: white;
+}
+
+.bold-word-green{
+  font-family: noirProB;
+  color:#95CD58;
+}
+
+.qs{
+  background:url('../images/fondo1.png'), linear-gradient(#95CD58, #60BC45);
+}
+
+.slick-prev, .slick-next {
+
+  height: 40px !important;
+  width: 50px !important;
+}
+
+.slick-prev {
+    left: 10px !important;
+    z-index: 9;
+}
+
+.slick-next {
+    right: : 10px !important;
+    z-index: 9;
+}
+
+.description-carousel{
+  font-family: noirProB;
+  font-size: 1.5em;
+}
+
+.description-carousel-2{
+  font-family: noirProB;
+  font-size: 1.5em !important;
+}
+
+.solutions{
+  background:url('../images/fondo2.png'), linear-gradient(#95CD58, #60BC45);
+}
+
+.inscription{
+  background:url('../images/fondo3.png'), linear-gradient(#2A3B8A, #261D67);
+}
+
+
+
+
+
+
+@media screen and (max-width: 575.98px) and (orientation:landscape) {
+
+  .inicio-img{
+    width: 150px !important;
+  }
+
+  .inicio{
+    padding-top: 3em !important;
+    font-family: noirProB;
+    font-size: 1.3em !important;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) and (orientation:landscape){
+  .inicio-img{
+    width: 150px !important;
+  }
+
+  .inicio{
+    padding-top: 3em !important;
+    font-family: noirProB;
+    font-size: 1.3em !important;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-nav .nav-item{
+    height: 13vh;
+    margin-left: 40px !important;
+  }
+
+  .inicio{
+    padding-top: 3em;
+    font-family: noirProB;
+    font-size: 2em;
+    line-height: 1.2;
+  }
+
+  .inicio-img{
+    width: 250px;
+  }
+
+  .qs-img{
+    width: 250px;
+  }
+
+  .description{
+    font-family: noirPro;
+    font-size: 1.1em;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+
+  .obj-img{
+    width: 250px;
+  }
+  .description-carousel{
+    font-family: noirProB;
+    font-size: 0.7em !important;
+  }
+
+  .sol-img{
+    width: 250px;
+  }
+
+  .cf-img{
+    width: 250px;
+  }
+
+  .description-carousel-2{
+    font-family: noirProB;
+    font-size: 1.3em !important;
+  }
+
+
+  .bold-word-w{
+    font-family: noirProB;
+    font-size: 1em;
+    color: white;
+  }
+
+  .slick-next {
+    right: 1px !important;
+  }
+
+
+  .basu-img{
+    width: 25px !important;
+  }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-nav .nav-item{
+    height: 15vh;
+    margin-left: 40px !important;
+  }
+  .inicio{
+    padding-top: 3em;
+    font-family: noirProB;
+    font-size: 2em;
+    line-height: 1.2;
+  }
+
+  .inicio-img{
+    width: 250px;
+  }
+
+  .qs-img{
+    width: 250px;
+  }
+
+  .description{
+    font-family: noirPro;
+    font-size: 1.1em;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+
+  .obj-img{
+    width: 250px;
+  }
+  .description-carousel{
+    font-family: noirProB;
+    font-size: 0.7em !important;
+  }
+
+  .sol-img{
+    width: 250px;
+  }
+
+  .cf-img{
+    width: 250px;
+  }
+
+  .description-carousel-2{
+    font-family: noirProB;
+    font-size: 1.3em !important;
+  }
+
+  .slick-next {
+    right: 1px !important;
+  }
+
+  .basu-img{
+    width: 25px !important;
+
+  }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-nav .nav-item{
+    height: 13vh;
+    margin-left: 40px !important;
+  }
+
+  .inicio{
+    padding-top: 3em;
+    font-family: noirProB;
+    font-size: 2em;
+    line-height: 1.2;
+  }
+
+  .inicio-img{
+    width: 250px;
+  }
+
+  .qs-img{
+    width: 250px;
+  }
+
+  .description{
+    font-family: noirPro;
+    font-size: 1.1em;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+
+  .obj-img{
+    width: 250px;
+  }
+  .description-carousel{
+    font-family: noirProB;
+    font-size: 0.7em !important;
+  }
+
+  .sol-img{
+    width: 250px;
+  }
+
+  .cf-img{
+    width: 250px;
+  }
+
+  .description-carousel-2{
+    font-family: noirProB;
+    font-size: 1.3em !important;
+  }
+
+  .slick-next {
+    right: 1px !important;
+  }
+
+  .basu-img{
+    width: 25px !important;
+
+  }
+  #inicio{
+    height: 100vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+   #inicio{
+    height: 100vh;
+  }
+ }
+
+@media (min-width: 1200px) { 
+  #inicio{
+    height: 100vh;
+
+    } 
+}
